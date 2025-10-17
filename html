@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Captcha Solver</h1>
+    </header>
+    <main>
+        <form id="captcha-form">
+            <label for="url">Captcha Image URL:</label>
+            <input type="text" id="url" name="url" placeholder="https://.../image.png">
+            <button type="submit">Solve Captcha</button>
+        </form>
+        <div id="captcha-solution" aria-live="polite"></div>
+    </main>
+    <footer>
+        <p>© 2022 Captcha Solver. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
